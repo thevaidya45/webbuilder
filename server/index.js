@@ -17,7 +17,7 @@ const port=process.env.PORT || 5000
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin:"https://frontendweb-gisb.onrender.com",
+    origin:"https://siteforge-qasd.onrender.com",
     credentials:true
 }))
 app.use("/api/auth",authRouter)
